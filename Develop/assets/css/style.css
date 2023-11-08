@@ -49,10 +49,13 @@ a {
     text-decoration: underline;
 }
 
+p {
+    font-size: 20px;
+}
+
 .hero {
     height: 200px;
     width: 100%;
-    margin-bottom: 25px;
     background-image: url("../images/goldenrod-flower.png");
     background-size: cover;
     background-position: 27% 27%;
@@ -76,6 +79,21 @@ a {
 .about-me {
     height: 250px;
     padding-right: 20px;
+    background-color: white;
+    color: #585a5e;
+}
+
+.work {
+    height: 250px;
+    padding-right: 20px;
+    background-color: rgb(226, 226, 226);
+    color: #585a5e;
+}
+
+.contact-me {
+    height: 250px;
+    padding-right: 20px;
+    background-color: rgb(202, 202, 202);
     color: #585a5e;
 }
 
@@ -86,6 +104,16 @@ a {
     font-size: 50px;
 }
 
-p {
-    font-size: 20px;
+.work h2 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.contact-me h2 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
 }
