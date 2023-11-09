@@ -4,79 +4,85 @@
     margin: 0;
 }
 
+/* Body || Background Color */
 body {
     background-color: beige;
 }
 
+/* Header || Background Color and Padding */
 .header {
     padding-top: 15px;
     padding-right: 50px;
     padding-bottom: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #353c40;
     color: #353c40;
 }
 
+/* Header Title || Font and Background Color */
 .header h1 {
     display: inline-block;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 50px;
+    padding: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 48px;
     background-color: goldenrod;
 }
 
+/* Header Navigation || Font and Position */
 .header nav {
-    padding-top: 20px;
-    margin-right: 20px;
+    padding-top: 35px;
     float: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
+/* Header Navigation || Positioning and Spacing */
 .header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 50px;
 }
 
+/* Navigation || Text Color */
 a {
     color: goldenrod;
-    text-decoration: underline;
 }
 
+/* Header Image */
 .hero {
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-image: url("../images/goldenrod-flower.png");
     background-size: cover;
     background-position: 27% 27%;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Article || Width and Padding */
 .content {
-    width: 25%;
-    display: inline-block;
+    width: 100vw;
+    padding: 5%;
 }
 
+/* About Me || Sizing and Text Color */
 .about-me {
     height: 250px;
-    padding-right: 20px;
-    background-color: white;
+    width: 100%;
+    display: flex;
     color: #585a5e;
+}
+
+/* About Me Title || Font and Verticle Line */
+.about-me h2 {
+    padding: 3% 3%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    border-right: #353c40 solid 3px;
+}
+
+/* About Me Description || Positioning */
+.about-me p {
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .work {
@@ -91,13 +97,6 @@ a {
     padding-right: 20px;
     background-color: rgb(202, 202, 202);
     color: #585a5e;
-}
-
-.about-me h2 {
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 50px;
 }
 
 .work h2 {
