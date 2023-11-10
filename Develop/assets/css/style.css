@@ -66,15 +66,16 @@ a {
     height: 250px;
     width: 100%;
     display: flex;
+    margin-bottom: 5%;
     color: #585a5e;
 }
 
 /* About Me Title || Font and Verticle Line */
 .about-me h2 {
-    padding: 3% 3%;
+    min-width: 15vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
-    border-right: #353c40 solid 3px;
+    border-right: #353c40 solid 5px;
 }
 
 /* About Me Description || Positioning */
@@ -82,33 +83,70 @@ a {
     display: flex;
     align-items: center;
     padding-left: 3%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
 }
 
+/* Work || Sizing and Text Color */
 .work {
     height: 250px;
-    padding-right: 20px;
-    background-color: rgb(226, 226, 226);
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
     color: #585a5e;
 }
 
+/* Work Title || Font and Verticle Line */
+.work h2 {
+    width: 15vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    border-right: #353c40 solid 5px;
+}
+
+/* Contact Me || Sizing and Text Color */
 .contact-me {
     height: 250px;
-    padding-right: 20px;
-    background-color: rgb(202, 202, 202);
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
     color: #585a5e;
 }
 
-.work h2 {
-    display: flex;
-    justify-content: flex-end;
+/* Contact Me Title || Font and Verticle Line */
+.contact-me h2 {
+    width: 15vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
+    border-right: #353c40 solid 5px;
 }
 
-.contact-me h2 {
+.contact-me nav {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.contact-me nav ul li {
+    display: inline-block;
+    padding: 100px;
+}
+
+b {
+    color: #585a5e;
+}
+
+/* Resume || Sizing and Text Color */
+.resume {
+    height: 250px;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    color: #585a5e;
+}
+
+/* Resume Title || Font and Verticle Line */
+.resume h2 {
+    width: 15vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
+    border-right: #353c40 solid 5px;
 }
