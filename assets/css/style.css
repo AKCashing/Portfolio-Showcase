@@ -4,149 +4,169 @@
     margin: 0;
 }
 
-/* Body || Background Color */
+/* Body */
 body {
-    background-color: beige;
+    background-color: #d9dddc;
 }
 
-/* Header || Background Color and Padding */
-.header {
-    padding-top: 15px;
-    padding-right: 50px;
-    padding-bottom: 15px;
-    background-color: #353c40;
-    color: #353c40;
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3a3b3c;
 }
 
-/* Header Title || Font and Background Color */
-.header h1 {
+/* Heading 1 */
+h1 {
     display: inline-block;
-    padding: 1%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 48px;
-    background-color: goldenrod;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 50px;
+    background-color: #bdb7ab;
+    color: #3a3b3c;
 }
 
-/* Header Navigation || Font and Position */
-.header nav {
-    padding-top: 35px;
-    float: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+/* Navigation List */
+nav ul {
+    display: flex;
 }
 
-/* Header Navigation || Positioning and Spacing */
-.header nav ul li {
+/* Navigation List Link */
+nav ul li {
     display: inline-block;
-    margin-left: 50px;
+    padding-right: 25px;
 }
 
-/* Navigation || Text Color */
-a {
-    color: goldenrod;
+/* Navigation Text */
+nav a {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration-thickness: 4px;
+    color: #bdb7ab;
 }
 
-/* Header Image */
-.hero {
+/* Image 1 */
+#image1 {
+    width: 100vw;
     height: 300px;
-    width: 100%;
-    background-image: url("../images/goldenrod-flower.png");
+    background-image: url("../images/Image1.jpg");
     background-size: cover;
-    background-position: 27% 27%;
+    background-position: 25% 25%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+h2 {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    font-size: 40px;
+    background-color: #bdb7ab;
+    color: #3a3b3c;
 }
 
 /* Article || Width and Padding */
-.content {
+/* .content {
     width: 100vw;
     padding: 5%;
-}
+} */
 
 /* About Me || Sizing and Text Color */
-.about-me {
+/* .about-me {
     height: 250px;
     width: 100%;
     display: flex;
     margin-bottom: 5%;
     color: #585a5e;
-}
+} */
 
 /* About Me Title || Font and Verticle Line */
-.about-me h2 {
+/* .about-me h2 {
     min-width: 15vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     border-right: #353c40 solid 5px;
-}
+} */
 
 /* About Me Description || Positioning */
-.about-me p {
+/* .about-me p {
     display: flex;
     align-items: center;
     padding-left: 3%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
-}
+} */
 
 /* Work || Sizing and Text Color */
-.work {
+/* .work {
     height: 250px;
     width: 100%;
     display: flex;
     margin-bottom: 5%;
     color: #585a5e;
-}
+} */
 
 /* Work Title || Font and Verticle Line */
-.work h2 {
+/* .work h2 {
     width: 15vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     border-right: #353c40 solid 5px;
-}
+} */
 
 /* Contact Me || Sizing and Text Color */
-.contact-me {
+/* .contact-me {
     height: 250px;
     width: 100%;
     display: flex;
     margin-bottom: 5%;
     color: #585a5e;
-}
+} */
 
 /* Contact Me Title || Font and Verticle Line */
-.contact-me h2 {
+/* .contact-me h2 {
     width: 15vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     border-right: #353c40 solid 5px;
-}
+} */
 
-.contact-me nav {
+/* .contact-me nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-}
+} */
 
-.contact-me nav ul li {
+/* .contact-me nav ul li {
     display: inline-block;
     padding: 100px;
-}
+} */
 
-b {
+/* b {
     color: #585a5e;
-}
+} */
 
 /* Resume || Sizing and Text Color */
-.resume {
+/* .resume {
     height: 250px;
     width: 100%;
     display: flex;
     color: #585a5e;
-}
+} */
 
 /* Resume Title || Font and Verticle Line */
-.resume h2 {
+/* .resume h2 {
     width: 15vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     border-right: #353c40 solid 5px;
-}
+} */
